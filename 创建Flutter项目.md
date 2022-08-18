@@ -70,6 +70,6 @@ Your application code is in biu_project/lib/main.dart.
 
 现在再来看下项目信息：
 
-![default-exampleproject-Crc0UU40Zwoizw.png](http://flutter-media.knowledge.ituknown.cn/CreateFlutterProject/default-exampleproject-Crc0UU40Zwoizw.png)
+![custom-exampleproject-0Biq1AZGKl8BaA.png](http://flutter-media.knowledge.ituknown.cn/CreateFlutterProject/custom-exampleproject-0Biq1AZGKl8BaA.png)
 
 是不是很 nice~
