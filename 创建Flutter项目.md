@@ -48,6 +48,8 @@ $ flutter create [options] project-name
 -i, --ios-language      指定 IOS 开发语言（objc 或 Swift）, 默认 Swift
 -a, --android-language  指定 Android 开发语言（java 或 kotlin）, 默认 kotlin
 -t                      指定创建的项目类型（app、module、package 或 plugin）, 默认 app
+
+--platforms             指定创建的应用平台（ios/android/windows/linux/macos/web）,默认会创建全部平台
 ```
 
 来看下具体示例：
@@ -71,5 +73,11 @@ Your application code is in biu_project/lib/main.dart.
 现在再来看下项目信息：
 
 ![custom-exampleproject-0Biq1AZGKl8BaA.png](http://flutter-media.knowledge.ituknown.cn/CreateFlutterProject/custom-exampleproject-0Biq1AZGKl8BaA.png)
+
+如果想要创建指定平台的应用，只需要使用 `--platforms` 参数指定即可，比如只创建桌面应用（windows/macos/linux）：
+
+```bash
+$ flutter create --org "com.ituknown" --platforms windows,macos,linux example_project
+```
 
 是不是很 nice~
