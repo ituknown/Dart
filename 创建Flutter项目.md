@@ -26,7 +26,7 @@ Your application code is in path/exampleproject/lib/main.dart.
 
 这样，一个 Flutter 项目就创建完成了：
 
-![default-exampleproject-Crc0UU40Zwoizw.png](http://flutter-media.knowledge.ituknown.cn/CreateFlutterProject/default-exampleproject-Crc0UU40Zwoizw.png)
+![default-exampleproject-Crc0UU40Zwoizw.png](http://dart-media.knowledge.ituknown.cn/CreateFlutterProject/default-exampleproject-Crc0UU40Zwoizw.png)
 
 要注意的一点是，项目名（`exampleproject`）必须是 `[a-z0-9_]` 组合，不能包含 `-` 等字符。
 
@@ -72,7 +72,7 @@ Your application code is in biu_project/lib/main.dart.
 
 现在再来看下项目信息：
 
-![custom-exampleproject-0Biq1AZGKl8BaA.png](http://flutter-media.knowledge.ituknown.cn/CreateFlutterProject/custom-exampleproject-0Biq1AZGKl8BaA.png)
+![custom-exampleproject-0Biq1AZGKl8BaA.png](http://dart-media.knowledge.ituknown.cn/CreateFlutterProject/custom-exampleproject-0Biq1AZGKl8BaA.png)
 
 如果想要创建指定平台的应用，只需要使用 `--platforms` 参数指定即可，比如只创建桌面应用（windows/macos/linux）：
 
