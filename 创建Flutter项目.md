@@ -47,16 +47,22 @@ $ flutter create [options] project-name
 --description           指定项目描述信息, 默认 "A new Flutter project."
 -i, --ios-language      指定 IOS 开发语言（objc 或 Swift）, 默认 Swift
 -a, --android-language  指定 Android 开发语言（java 或 kotlin）, 默认 kotlin
--t                      指定创建的项目类型（app、module、package 或 plugin）, 默认 app
+-t, --template          指定创建的项目类型（app、module、package 或 plugin）, 默认 app
 
 --platforms             指定创建的应用平台（ios/android/windows/linux/macos/web）,默认会创建全部平台
 ```
 
-来看下具体示例：
+比如下面这个创建项目的命令示例：
 
 ```bash
-$ flutter create --org "com.ituknown" --description "biu biu biu." -i objc -a java biu_project
+$ flutter create --org com.ituknown --template=app --description "biu biu biu." -i objc -a java biu_project
+```
 
+其中 `com.ituknown` 是项目包名的一部分，`biu_project` 是具体项目名称。该项目的完整包名为：`com.ituknown.biu_project`。
+
+下面是命令输出示例：
+
+```bash
 Creating project biu_project...
 Running "flutter pub get" in biu_project...                      1,323ms
 Wrote 128 files.
@@ -77,7 +83,7 @@ Your application code is in biu_project/lib/main.dart.
 如果想要创建指定平台的应用，只需要使用 `--platforms` 参数指定即可，比如只创建桌面应用（windows/macos/linux）：
 
 ```bash
-$ flutter create --org "com.ituknown" --platforms windows,macos,linux example_project
+$ flutter create --org com.ituknown --platforms windows,macos,linux example_project
 ```
 
 是不是很 nice~
